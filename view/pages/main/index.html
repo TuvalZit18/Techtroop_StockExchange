@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../../../controller/main.js" type="module"></script>
+    <script src="../../utils/stock-spinner.js"></script>
+  </head>
+  <body>
+    <input id="inputSearch" placeholder="Search Stock by name or symbol..." />
+    <button class="btn" data-action="search">search</button>
+    <div class="stocks-container">
+      <div class="stocks-content"></div>
+      <stock-spinner></stock-spinner>
+    </div>
+    <!-- default, no attributes -->
+  </body>
+</html>
